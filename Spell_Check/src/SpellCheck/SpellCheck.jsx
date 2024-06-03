@@ -1,11 +1,11 @@
-import React from "react";
+import {useState} from "react";
 
 // Define a custom dictionary of words and their corrections
 
 
 const SpellCheckApp = () => {
-    const [inputText, setInputText] = React.useState("");
-    const [suggestedText, setSuggestedText] = React.useState("");
+    const [inputText, setInputText] = useState("");
+    const [suggestedText, setSuggestedText] = useState("");
 
 
   const customDictionary = {
